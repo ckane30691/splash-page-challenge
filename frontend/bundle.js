@@ -26527,9 +26527,13 @@ var Splash = function (_React$Component) {
         _react2.default.createElement(
           'div',
           { className: 'logos-container' },
-          _react2.default.createElement('img', { className: 'logos',
-            alt: 'logos',
-            src: 'https://s3.amazonaws.com/piazza-challenge/logos.png' })
+          _react2.default.createElement(
+            'div',
+            { className: 'logo-card' },
+            _react2.default.createElement('img', { className: 'logos',
+              alt: 'logos',
+              src: 'https://s3.amazonaws.com/piazza-challenge/logos.png' })
+          )
         ),
         _react2.default.createElement(
           'ul',

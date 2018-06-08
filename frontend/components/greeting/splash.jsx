@@ -22,9 +22,11 @@ class Splash extends React.Component {
             		</div>
 
                 <div className="logos-container">
-                  <img className="logos"
-                    alt="logos"
-                    src="https://s3.amazonaws.com/piazza-challenge/logos.png" />
+                  <div className="logo-card">
+                    <img className="logos"
+                      alt="logos"
+                      src="https://s3.amazonaws.com/piazza-challenge/logos.png" />
+                  </div>
                 </div>
 
                 <ul className="about-panel">
