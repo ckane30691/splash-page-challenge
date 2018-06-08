@@ -26473,7 +26473,7 @@ exports.default = App;
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -26493,30 +26493,173 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Splash = function (_React$Component) {
-    _inherits(Splash, _React$Component);
+  _inherits(Splash, _React$Component);
 
-    function Splash() {
-        _classCallCheck(this, Splash);
+  function Splash() {
+    _classCallCheck(this, Splash);
 
-        return _possibleConstructorReturn(this, (Splash.__proto__ || Object.getPrototypeOf(Splash)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (Splash.__proto__ || Object.getPrototypeOf(Splash)).apply(this, arguments));
+  }
+
+  _createClass(Splash, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'splash-body' },
+        _react2.default.createElement(
+          'div',
+          { className: 'splash-header' },
+          _react2.default.createElement('img', { className: 'piazza-logo',
+            alt: 'piazza logo',
+            src: 'https://s3.amazonaws.com/piazza-challenge/logo.png' })
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'hero-img-container' },
+          _react2.default.createElement('img', { className: 'header-graphic',
+            alt: 'header-graphic',
+            src: 'https://s3.amazonaws.com/piazza-challenge/header_graphic.png' }),
+          _react2.default.createElement('img', { className: 'hero-img',
+            alt: 'hero image',
+            src: 'https://s3.amazonaws.com/piazza-challenge/hero_image.jpg' })
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'logos-container' },
+          _react2.default.createElement('img', { className: 'logos',
+            alt: 'logos',
+            src: 'https://s3.amazonaws.com/piazza-challenge/logos.png' })
+        ),
+        _react2.default.createElement(
+          'ul',
+          { className: 'about-panel' },
+          _react2.default.createElement(
+            'li',
+            { className: 'about-container' },
+            _react2.default.createElement(
+              'h1',
+              { className: 'about-title' },
+              'Brand Awareness'
+            ),
+            _react2.default.createElement('img', { className: 'about-logo',
+              alt: 'brand awareness logo',
+              src: 'https://s3.amazonaws.com/piazza-challenge/icon1.png' }),
+            _react2.default.createElement(
+              'p',
+              { className: 'about-tagline' },
+              'Enable students to relate to your brand and your mission. Getting students familiar with your barnd early on helps with forming positive brand associations.'
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'about-container' },
+            _react2.default.createElement(
+              'h1',
+              { className: 'about-title' },
+              'Relatability'
+            ),
+            _react2.default.createElement('img', { className: 'about-logo',
+              alt: 'relatability logo',
+              src: 'https://s3.amazonaws.com/piazza-challenge/icon2.png' }),
+            _react2.default.createElement(
+              'p',
+              { className: 'about-tagline' },
+              'The best asset your company has in being able to relate to students is your current employees career experiences. We help you leverage these in a powerful way.'
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'about-container' },
+            _react2.default.createElement(
+              'h1',
+              { className: 'about-title' },
+              'Event RSVP'
+            ),
+            _react2.default.createElement('img', { className: 'about-logo',
+              alt: 'event rsvp logo',
+              src: 'https://s3.amazonaws.com/piazza-challenge/icon3.png' }),
+            _react2.default.createElement(
+              'p',
+              { className: 'about-tagline' },
+              'Are students aware of your on campus events? We target your messaging by school and class type to ensure the students you care about are in the know.'
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'about-container' },
+            _react2.default.createElement(
+              'h1',
+              { className: 'about-title' },
+              'Interview Request'
+            ),
+            _react2.default.createElement('img', { className: 'about-logo',
+              alt: 'interview request logo',
+              src: 'https://s3.amazonaws.com/piazza-challenge/icon4.png' }),
+            _react2.default.createElement(
+              'p',
+              { className: 'about-tagline' },
+              'We give students the opportunity to connect directly with you to request more information, to ask questions, and ultimately apply for a job. We keep things organized and simple.'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'ul',
+          { className: 'in-depth-container' },
+          _react2.default.createElement(
+            'li',
+            { className: 'in-depth-card' },
+            _react2.default.createElement('img', { className: 'in-depth-logo',
+              alt: 'brand awareness logo',
+              src: 'https://s3.amazonaws.com/piazza-challenge/iconbig1.png' }),
+            _react2.default.createElement(
+              'p',
+              { className: 'in-depth-desc' },
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'in-depth-card' },
+            _react2.default.createElement('img', { className: 'in-depth-logo',
+              alt: 'relatability logo',
+              src: 'https://s3.amazonaws.com/piazza-challenge/iconbig2.png' }),
+            _react2.default.createElement(
+              'p',
+              { className: 'in-depth-desc' },
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'in-depth-card' },
+            _react2.default.createElement('img', { className: 'in-depth-logo',
+              alt: 'event rsvp logo',
+              src: 'https://s3.amazonaws.com/piazza-challenge/iconbig3.png' }),
+            _react2.default.createElement(
+              'p',
+              { className: 'in-depth-desc' },
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'in-depth-card' },
+            _react2.default.createElement('img', { className: 'in-depth-logo',
+              alt: 'interview request logo',
+              src: 'https://s3.amazonaws.com/piazza-challenge/iconbig4.png' }),
+            _react2.default.createElement(
+              'p',
+              { className: 'in-depth-desc' },
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+          )
+        )
+      );
     }
+  }]);
 
-    _createClass(Splash, [{
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'div',
-                { className: 'splash-body' },
-                _react2.default.createElement(
-                    'p',
-                    null,
-                    'TEST'
-                )
-            );
-        }
-    }]);
-
-    return Splash;
+  return Splash;
 }(_react2.default.Component);
 
 exports.default = Splash;
