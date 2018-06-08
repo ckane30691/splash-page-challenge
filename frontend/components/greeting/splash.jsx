@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SessionForm from '../session/session_form';
 
 class Splash extends React.Component {
 
@@ -18,7 +19,10 @@ class Splash extends React.Component {
                     src="https://s3.amazonaws.com/piazza-challenge/header_graphic.png" />
             			<img className="hero-img"
                     alt="hero image"
-                    src="https://s3.amazonaws.com/piazza-challenge/hero_image.jpg"/>
+                    src="https://s3.amazonaws.com/piazza-challenge/hero_image_cropped.jpg"/>
+
+                  <SessionForm />
+
                   <div className="hero-blurb">Companies Using Piazza Careers:</div>
             		</div>
 

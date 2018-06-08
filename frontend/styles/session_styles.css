@@ -1,0 +1,60 @@
+.session-form-container {
+  background-color: rgba(210, 212, 215, .5);
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  padding: 20px;
+  border-radius: .4em;
+  width: 605px;
+  height: 330px;
+  box-sizing: border-box;
+}
+
+.session-form-container p {
+  color: rgb(112, 112, 116);
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: -15px;
+}
+
+/* TODO: Refactor session-form-input and email-input */
+.session-form-input {
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 1.6em;
+  padding: 13px;
+  width: 272.5px;
+  margin-right: 10px;
+  border-radius: .4em;
+  border: 1.5px solid rgb(182, 183, 184);
+  margin-bottom: 5px;
+}
+
+.email-input {
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 1.6em;
+  padding: 13px;
+  width: 555px;
+  margin-right: 10px;
+  border-radius: .4em;
+  border: 1.5px solid rgb(182, 183, 184);
+}
+
+.signup-submit {
+  background-color: rgb(80, 162, 110);
+  padding: 15px;
+  border-radius: .4em;
+  margin-top: 10px;
+  width: 555px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.7em;
+  margin-bottom: 12px;
+}
+
+.login-link {
+  color: rgb(112, 112, 116);
+  font-size: 1.4em;
+  font-weight: 600;
+}

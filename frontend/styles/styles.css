@@ -5,6 +5,7 @@ body {
 
 .splash-header {
   background-color: rgb(50, 66, 76);
+  height: 75px;
 }
 
 .piazza-logo {
@@ -32,6 +33,7 @@ body {
   font-weight: 600;
   font-size: 1.7em;
   position: absolute;
+  margin-bottom: -10px;
 }
 
 .logos-container {
