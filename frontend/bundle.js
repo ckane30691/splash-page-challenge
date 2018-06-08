@@ -26800,6 +26800,8 @@ Object.defineProperty(exports, "__esModule", {
 
 var _redux = __webpack_require__(29);
 
+//Redux is technically not needed for this project but I included it to
+//make this app feel more extensible
 exports.default = (0, _redux.combineReducers)({});
 
 /***/ }),
