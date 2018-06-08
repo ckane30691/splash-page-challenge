@@ -26522,7 +26522,12 @@ var Splash = function (_React$Component) {
             src: 'https://s3.amazonaws.com/piazza-challenge/header_graphic.png' }),
           _react2.default.createElement('img', { className: 'hero-img',
             alt: 'hero image',
-            src: 'https://s3.amazonaws.com/piazza-challenge/hero_image.jpg' })
+            src: 'https://s3.amazonaws.com/piazza-challenge/hero_image.jpg' }),
+          _react2.default.createElement(
+            'div',
+            { className: 'hero-blurb' },
+            'Companies Using Piazza Careers:'
+          )
         ),
         _react2.default.createElement(
           'div',
@@ -26617,9 +26622,18 @@ var Splash = function (_React$Component) {
               alt: 'brand awareness logo',
               src: 'https://s3.amazonaws.com/piazza-challenge/iconbig1.png' }),
             _react2.default.createElement(
-              'p',
-              { className: 'in-depth-desc' },
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+              'div',
+              { className: 'title-desc' },
+              _react2.default.createElement(
+                'h1',
+                { className: 'in-depth-title' },
+                'Brand Awareness'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'in-depth-desc' },
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+              )
             )
           ),
           _react2.default.createElement(
@@ -26629,9 +26643,18 @@ var Splash = function (_React$Component) {
               alt: 'relatability logo',
               src: 'https://s3.amazonaws.com/piazza-challenge/iconbig2.png' }),
             _react2.default.createElement(
-              'p',
-              { className: 'in-depth-desc' },
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+              'div',
+              { className: 'title-desc' },
+              _react2.default.createElement(
+                'h1',
+                { className: 'in-depth-title' },
+                'Relatability'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'in-depth-desc' },
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+              )
             )
           ),
           _react2.default.createElement(
@@ -26641,9 +26664,18 @@ var Splash = function (_React$Component) {
               alt: 'event rsvp logo',
               src: 'https://s3.amazonaws.com/piazza-challenge/iconbig3.png' }),
             _react2.default.createElement(
-              'p',
-              { className: 'in-depth-desc' },
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+              'div',
+              { className: 'title-desc' },
+              _react2.default.createElement(
+                'h1',
+                { className: 'in-depth-title' },
+                'Event RSVP'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'in-depth-desc' },
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+              )
             )
           ),
           _react2.default.createElement(
@@ -26653,9 +26685,18 @@ var Splash = function (_React$Component) {
               alt: 'interview request logo',
               src: 'https://s3.amazonaws.com/piazza-challenge/iconbig4.png' }),
             _react2.default.createElement(
-              'p',
-              { className: 'in-depth-desc' },
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+              'div',
+              { className: 'title-desc' },
+              _react2.default.createElement(
+                'h1',
+                { className: 'in-depth-title' },
+                'Interview Request'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'in-depth-desc' },
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+              )
             )
           )
         )

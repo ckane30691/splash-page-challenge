@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 .splash-header {
@@ -24,6 +25,15 @@ body {
   height: 315px;
 }
 
+.hero-blurb {
+  bottom: 20px;
+  left: 20px;
+  color: rgb(109, 110, 113);
+  font-weight: 600;
+  font-size: 1.7em;
+  position: absolute;
+}
+
 .logos-container {
   background-color: rgb(238, 241, 245);
   padding-top: 10px;
@@ -40,17 +50,34 @@ body {
   display: flex;
 }
 
+.about-container:after {
+  content: "";
+  padding: 1.5px;
+  height: 200px;
+  position: absolute;
+  right: 0px;
+  background: linear-gradient(rgb(50, 66, 76), rgb(117, 133, 147), rgb(50, 66, 76));
+}
+
 .about-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   padding-top: 10px;
+  padding-right: 35px;
 }
 
+.about-tagline {
+  margin-left: 20px;
+}
+
+
 .about-title {
+  margin-top: 10px;
   font-size: 1.6em;
 }
 
@@ -59,8 +86,15 @@ body {
   width: 100px;
 }
 
+.about-tagline {
+  font-weight: 400;
+}
+
 .in-depth-card {
   display: flex;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-right: 140px;
 }
 
 .in-depth-card:nth-child(even) {
@@ -68,6 +102,17 @@ body {
 }
 
 .in-depth-logo {
-  height: 240px;
-  width: 240px;
+  height: 230px;
+  width: 230px;
+  margin-left: 30px;
+}
+
+.title-desc {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.in-depth-title {
+  color: rgb(50, 66, 76);
+  font-size: 2.7em;
 }
