@@ -26490,9 +26490,13 @@ var Splash = function (_React$Component) {
         _react2.default.createElement(
           'div',
           { className: 'splash-header' },
-          _react2.default.createElement('img', { className: 'piazza-logo',
-            alt: 'piazza logo',
-            src: 'https://s3.amazonaws.com/piazza-challenge/logo.png' })
+          _react2.default.createElement(
+            _reactRouterDom.Link,
+            { to: '/' },
+            _react2.default.createElement('img', { className: 'piazza-logo',
+              alt: 'piazza logo',
+              src: 'https://s3.amazonaws.com/piazza-challenge/logo.png' })
+          )
         ),
         _react2.default.createElement(
           'div',

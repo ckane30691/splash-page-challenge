@@ -8,9 +8,11 @@ class Splash extends React.Component {
         return (
             <div className="splash-body">
                 <div className="splash-header">
-                  <img className="piazza-logo"
-                      alt="piazza logo"
-                      src="https://s3.amazonaws.com/piazza-challenge/logo.png"/>
+                  <Link to="/">
+                    <img className="piazza-logo"
+                        alt="piazza logo"
+                        src="https://s3.amazonaws.com/piazza-challenge/logo.png"/>
+                  </Link>
                 </div>
 
                 <div className="hero-img-container">
